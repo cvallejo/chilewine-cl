@@ -81,7 +81,7 @@
                 <div class="title m-b-md">
                     ChileWine
                 </div>
-
+                
                 <div class="links">
                     {{ date("Y") }} © Todos los derechos reservados
                 </div>
