@@ -7,6 +7,14 @@
 
         <title>Chilewine</title>
 
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ url('img//apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ url('img//favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ url('img//favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ url('img//site.webmanifest') }}">
+        <link rel="mask-icon" href="{{ url('img//safari-pinned-tab.svg') }}" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
@@ -16,7 +24,7 @@
                 background-color: #434a54;
                 color: #fff;
                 font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                font-weight: 180;
                 height: 100vh;
                 margin: 0;
             }
@@ -69,6 +77,7 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="content">
+                <img src="{{ url('img/chilewine.svg') }}" alt="Chilewine" width="150">
                 <div class="title m-b-md">
                     ChileWine
                 </div>
